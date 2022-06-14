@@ -29,7 +29,7 @@
 }
 
 .app__navbar-links li:hover {
-    color: #9B0F09;
+    color: #85FFBD;
 }
 
 .app__navbar-login {
@@ -45,7 +45,7 @@
 }
 
 .app__navbar-login a:hover {
-    border-bottom: 1px solid #9B0F09;
+    border-bottom: 1px solid #85FFBD;
 }
 
 .app__navbar-login div{
@@ -73,7 +73,7 @@
 
 .app__navbar-smallscreen_overlay .overlay__close {
     font-size: 27px;
-    color: #9B0F09;
+    color: #85FFBD;
     cursor: pointer;
 
     position: absolute;
@@ -89,14 +89,14 @@
 .app__navbar-smallscreen_links li {
     margin: 2rem;
     cursor: pointer;
-    color: #9B0F09;
+    color: white;
     font-size: 2rem;
     text-align: center;
     font-family: var(--font-base);
 }
 
 .app__navbar-smallscreen_links li:hover {
-    color: var(--color-white);
+    color: #85FFBD;
 }
 
 .plus{

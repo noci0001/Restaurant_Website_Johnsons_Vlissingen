@@ -1,0 +1,26 @@
+.app__header{
+    background-color: white;
+}
+
+.app__header h1{
+    font-family: var(--font-base);
+    color: black;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    line-height: 117px;
+    font-size: 90px;
+    text-align: right;
+}
+
+.app__header img{
+    display: flex;
+    width: 65%;
+}
+
+#tag_main{
+    font-size: 1rem;
+}
+
+#logo{
+    width: 50px;
+}
