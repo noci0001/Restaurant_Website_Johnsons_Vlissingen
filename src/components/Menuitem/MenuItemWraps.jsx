@@ -1,8 +1,8 @@
 import React from 'react';
 
-import './MenuItem.css';
+import './MenuItemWraps.css';
 
-const MenuItem = ({title, price, tags}) => (
+const MenuItemWraps = ({title, price, tags}) => (
   <div className='app__menuitem'>
     <div className='app__menuitem-head'>
       <div className='app__menuitem-name'>
@@ -12,8 +12,10 @@ const MenuItem = ({title, price, tags}) => (
       <div className='app__menuitem-dash'/>
 
       <div className='app__menuitem-price'>
-        
-        <p className='p__cormorant'>{price}</p>
+
+        <p className='p__cormorant'>  M: {price.small}</p>
+        <br/>
+        {price.big === '' ? '' : <p className='p__cormorant'>|  B: {price.big}  </p>}
       </div>
     </div>
 
@@ -23,4 +25,4 @@ const MenuItem = ({title, price, tags}) => (
   </div>
 );
 
-export default MenuItem;
+export default MenuItemWraps;

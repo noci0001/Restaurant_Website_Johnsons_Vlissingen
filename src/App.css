@@ -61,10 +61,11 @@
 }
 
 .custom__button {
-  background-color: var(--color-crimson);
+  background-color: #85FFBD;
+  background-image: linear-gradient(45deg, #85FFBD 0%, #FFFB7D 100%);
     color: var(--color-black);
     font-family: var(--font-base);
-    font-weight: 700;
+    font-weight: 800;
     letter-spacing: 0.04em;
     line-height: 28px;
     font-size: 16px;
@@ -73,10 +74,28 @@
     border: none;
     outline: none;
     cursor: pointer;
+    border-radius: 7px;
 }
 
 .custom__button_special {
     position: absolute;
+    bottom: 100px;
+    background-color: #85FFBD;
+    background-image: linear-gradient(45deg, #85FFBD 0%, #FFFB7D 100%);
+    border-radius: 7px;
+    color: var(--color-black);
+    font-family: var(--font-base);
+    font-weight: 800;
+    letter-spacing: 0.04em;
+    line-height: 28px;
+    font-size: 16px;
+    padding: 0.5rem 1.5rem;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.custom__button_special_aboutus {
     bottom: 100px;
     background-color: #85FFBD;
     background-image: linear-gradient(45deg, #85FFBD 0%, #FFFB7D 100%);
@@ -102,7 +121,7 @@
   text-transform: capitalize;
   font-feature-settings: 'tnum' on, 'lnum' on;
   line-height: 29.9px;
-  font-size: 23px;
+  font-size: 20px;
 }
 
 .p__opensans {
@@ -117,11 +136,12 @@
 
 .headtext__cormorant {
   font-family: var(--font-base);
-  color: var(--color-golden);
+  color: white;
   font-size: 64px;
   line-height: 83.2px;
   letter-spacing: 0.04em;
   text-transform: capitalize;
+  width: max-content;
 }
 
 .spoon__img {

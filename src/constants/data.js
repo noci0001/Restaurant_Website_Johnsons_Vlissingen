@@ -1,58 +1,119 @@
 import images from './images';
 
-const wines = [
+const bagels = [
   {
-    title: 'Chapel Hill Shiraz',
-    price: '$56',
-    tags: 'AU | Bottle',
+    title: 'Summer Bagel',
+    price: '7,50',
+    ingredients: 'With pulled oats, carrot, fresh lettuce, a homemade jalapeño sauce and haver fraiche',
+    tags: 'Vegan',
   },
   {
-    title: 'Catena Malbee',
-    price: '$59',
-    tags: 'AU | Bottle',
+    title: 'Red Bagel',
+    price: '7,50',
+    ingredients: 'Italian touch with haverspread, lettuce, avocado and sun-dried tomatoes.',
+    tags: 'Vegan',
   },
   {
-    title: 'La Vieillw Rose',
-    price: '$44',
-    tags: 'FR | 750 ml',
+    title: 'Purple Bagel',
+    price: '7,50',
+    ingredients: 'Freshly roasted with fresh lettuce, goat cheese, walnuts and honey mustard sauce.',
+    tags: 'Vegetarian',
   },
   {
-    title: 'Rhino Pale Ale',
-    price: '$31',
-    tags: 'CA | 750 ml',
+    title: 'Yellow Bagel',
+    price: '7,50',
+    ingredients: 'Spicy touch with fresh lettuce, smoked chicken, mango and piri piri sauce.',
+    tags: '',
   },
   {
-    title: 'Irish Guinness',
-    price: '$26',
-    tags: 'IE | 750 ml',
+    title: 'Green Bagel',
+    price: '7,50',
+    ingredients: 'Taste the salty sea with chive dill sauce, fresh lettuce, smoked salmon and sesame seeds.',
+    tags: '',
+  },
+  { 
+    title: 'Orange Bagel',
+    price: '7,50',
+    ingredients: 'Fresh and slightly sweet with fresh lettuce, smoked chicken, mango and piri piri sauce.',
+    tags: '',
+  },
+  { 
+    title: 'Kids Bagel',
+    price: '5,50',
+    ingredients: 'With vegan chocolate spread + fresh fruit with whipped cream + 0,50',
+    tags: '',
   },
 ];
 
-const cocktails = [
+const bowls = [
   {
-    title: 'Aperol Sprtiz',
-    price: '$20',
-    tags: 'Aperol | Villa Marchesi prosecco | soda | 30 ml',
+    title: 'Vegan',
+    price: '7,50',
+    ingredients: 'With pulled oats, carrot, fresh lettuce, a homemade jalapeño sauce and haver fraiche',
+    tags: 'Vegan',
   },
   {
-    title: "Dark 'N' Stormy",
-    price: '$16',
-    tags: 'Dark rum | Ginger beer | Slice of lime',
+    title: 'Falafel',
+    price: '7,50',
+    ingredients: 'Italian touch with haverspread, lettuce, avocado and sun-dried tomatoes.',
+    tags: '',
   },
   {
-    title: 'Daiquiri',
-    price: '$10',
-    tags: 'Rum | Citrus juice | Sugar',
+    title: 'Chicken-Quinoa',
+    price: '7,50',
+    ingredients: 'Freshly roasted with fresh lettuce, goat cheese, walnuts and honey mustard sauce.',
+    tags: '',
   },
   {
-    title: 'Old Fashioned',
-    price: '$31',
-    tags: 'Bourbon | Brown sugar | Angostura Bitters',
+    title: 'Zalm',
+    price: '7,50',
+    ingredients: 'Spicy touch with fresh lettuce, smoked chicken, mango and piri piri sauce.',
+    tags: '',
   },
   {
-    title: 'Negroni',
-    price: '$26',
-    tags: 'Gin | Sweet Vermouth | Campari | Orange garnish',
+    title: 'Geitenkaas',
+    price: '7,50',
+    ingredients: 'Taste the salty sea with chive dill sauce, fresh lettuce, smoked salmon and sesame seeds.',
+    tags: 'Vegetarian',
+  },
+];
+
+const wraps = [
+  {
+    title: 'Vegan',
+    price: '9,50',
+    ingredients: 'With pulled oats, carrot, fresh lettuce, a homemade jalapeño sauce and haver fraiche',
+    tags: 'Vegan',
+  },
+  {
+    title: 'Falafel',
+    price: '9,50',
+    ingredients: 'Italian touch with haverspread, lettuce, avocado and sun-dried tomatoes.',
+    tags: 'Vegan',
+  },
+  {
+    title: 'Kip and Mango',
+    price: '9,50',
+    ingredients: 'Freshly roasted with fresh lettuce, goat cheese, walnuts and honey mustard sauce.',
+    tags: '',
+  },
+  {
+    title: 'Salmon',
+    price: '9,50',
+    ingredients: 'Spicy touch with fresh lettuce, smoked chicken, mango and piri piri sauce.',
+    tags: '',
+  },
+  {
+    title: 'Goatcheese',
+    price: '9,50',
+    ingredients: 'Taste the salty sea with chive dill sauce, fresh lettuce, smoked salmon and sesame seeds.',
+    tags: 'Vegetarian',
+  },
+  { 
+    title: 'Kids',
+    price: '5,50',
+    ingredients: 'Fresh and slightly sweet with fresh lettuce, smoked chicken, mango and piri piri sauce.',
+    tags: '',
   },
 ];
 
@@ -79,4 +140,4 @@ const awards = [
   },
 ];
 
-export default { wines, cocktails, awards };
+export default { bagels, bowls, wraps, awards };

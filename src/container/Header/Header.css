@@ -3,13 +3,24 @@
 }
 
 .app__header h1{
+    position: absolute;
+    margin-top: 250px;
     font-family: var(--font-base);
     color: black;
-    letter-spacing: 0.04em;
+    letter-spacing: 0.4em;
     text-transform: uppercase;
     line-height: 117px;
-    font-size: 90px;
-    text-align: right;
+    font-size: 15px;
+    padding-top: 0.1em;
+
+    transition: .5s ease;
+    border-top: 1px solid #85FFBD;
+}
+
+.app__header h1:hover{
+    text-align: center;
+    border-top: 1px solid #85FFBD;
+    width: 550px;
 }
 
 .app__header img{
@@ -23,4 +34,22 @@
 
 #logo{
     width: 50px;
+}
+
+
+@media screen and (max-width: 650px) {
+    .app__header h1{
+        position: absolute;
+        margin-top: 150px;
+        font-family: var(--font-base);
+        color: black;
+        letter-spacing: 0.4em;
+        text-transform: uppercase;
+        line-height: 90px;
+        font-size: 15px;
+        padding-top: 0.1em;
+    
+        transition: .5s ease;
+        border-top: 1px solid #85FFBD;
+    }
 }

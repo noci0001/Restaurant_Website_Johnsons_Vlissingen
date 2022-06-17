@@ -1,6 +1,5 @@
 import bg from '../assets/bg.png';
 import chef from '../assets/chef.png';
-import G from '../assets/G.png';
 import gallery01 from '../assets/gallery01.png';
 import gallery02 from '../assets/gallery02.png';
 import gallery03 from '../assets/gallery03.png';
@@ -21,11 +20,16 @@ import sign from '../assets/sign.png';
 import quote from '../assets/quote.png';
 import logoJohnsons from '../assets/Johnsons__logo.png';
 import finalLogo from '../assets/finalLogo.png';
+import J_logo_white from '../assets/J_logo_white.png';
+import J_logo_black from '../assets/J_logo_black.png';
+import J_logo_gray from '../assets/J_logo_gray.png';
+import coffee_mugs from '../assets/coffee__mugs.png';
+import J_icon_green_flip1 from '../assets/J_icon_green_flip1.png';
+import J_icon_green_flip2 from '../assets/J_icon_green_flip2.png';
 
 export default {
   bg,
   chef,
-  G,
   gallery01,
   gallery02,
   gallery03,
@@ -45,5 +49,11 @@ export default {
   sign,
   quote,
   logoJohnsons,
-  finalLogo
+  finalLogo,
+  J_logo_black,
+  J_logo_white,
+  J_logo_gray,
+  coffee_mugs,
+  J_icon_green_flip1,
+  J_icon_green_flip2
 };
