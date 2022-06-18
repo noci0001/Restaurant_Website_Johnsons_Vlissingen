@@ -13,7 +13,11 @@ const Header = () => (
   <div className="app__header app__wrapper_for_main section__padding id='home'">
     <img src={images.finalLogo} alt="Johnsons Logo"/>
     <h1>#Fresh & Healthy</h1>
-    <button className='custom__button_special'><MdOutlineRestaurantMenu color="#000000" /> Explore the Menu </button>
+    
+    
+    <button className='custom__button_special'><MdOutlineRestaurantMenu color="#000000" /><a href='#menu'> Explore the Menu </a></button>
+
+    
   </div>
     
     </div>

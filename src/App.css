@@ -129,7 +129,6 @@
   color: var(--color-white);
   font-weight: 400;
   letter-spacing: 0.04em;
-  text-transform: capitalize;
   line-height: 28px;
   font-size: 16px;
 }
@@ -145,7 +144,8 @@
 }
 
 .spoon__img {
-  width: 45px;
+  width: 35px;
+  opacity: 0.5;
 }
 
 @media screen and (min-width: 2000px) {

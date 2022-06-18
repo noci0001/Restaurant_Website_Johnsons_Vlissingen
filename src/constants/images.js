@@ -1,9 +1,19 @@
 import bg from '../assets/bg.png';
 import chef from '../assets/chef.png';
-import gallery01 from '../assets/gallery01.png';
-import gallery02 from '../assets/gallery02.png';
-import gallery03 from '../assets/gallery03.png';
-import gallery04 from '../assets/gallery04.png';
+import gallery01 from '../assets/gallery01.jpg';
+import gallery02 from '../assets/gallery02.jpg';
+import gallery03 from '../assets/gallery03.jpg';
+import gallery04 from '../assets/gallery04.jpg';
+import gallery05 from '../assets/gallery05.jpg';
+import gallery06 from '../assets/gallery06.jpg';
+import gallery07 from '../assets/gallery07.jpg';
+import gallery08 from '../assets/gallery08.jpg';
+import gallery09 from '../assets/gallery09.jpg';
+import gallery10 from '../assets/gallery10.jpg';
+import gallery11 from '../assets/gallery11.jpg';
+import gallery12 from '../assets/gallery12.jpg';
+import gallery13 from '../assets/gallery13.jpg';
+import gallery14 from '../assets/gallery14.jpg';
 import knife from '../assets/knife.png';
 import logo from '../assets/logo.png';
 import menu from '../assets/menu.png';
@@ -26,6 +36,10 @@ import J_logo_gray from '../assets/J_logo_gray.png';
 import coffee_mugs from '../assets/coffee__mugs.png';
 import J_icon_green_flip1 from '../assets/J_icon_green_flip1.png';
 import J_icon_green_flip2 from '../assets/J_icon_green_flip2.png';
+import caffé from '../assets/caffé.png';
+import coffee__icon from '../assets/coffee__icon.png';
+import johnsons__inside from '../assets/Johnsons__inside.png';
+import johnsons__glass from '../assets/Johnsons__glass.png';
 
 export default {
   bg,
@@ -55,5 +69,19 @@ export default {
   J_logo_gray,
   coffee_mugs,
   J_icon_green_flip1,
-  J_icon_green_flip2
+  J_icon_green_flip2,
+  gallery05,
+  gallery06,
+  gallery07,
+  gallery08,
+  gallery09,
+  gallery10,
+  gallery11,
+  gallery12,
+  gallery13,
+  gallery14,
+  caffé,
+  coffee__icon,
+  johnsons__inside,
+  johnsons__glass,
 };

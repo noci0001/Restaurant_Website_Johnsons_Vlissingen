@@ -15,13 +15,13 @@ const   Navbar = () => {
     </div>
       <ul className='app__navbar-links'>
         <li className='p__opensans'><a href='#home'>Home</a></li>
-        <li className='p__opensans'><a href='#menu'>About</a></li>
+        <li className='p__opensans'><a href='#about'>About</a></li>
         <li className="p__opensans"><a href="#menu">Menu</a></li>
         <li className='p__opensans'><a href='#contact'>Contact</a></li>
 
       </ul>
       <div className='app__navbar-login'> 
-      <a href='/' className='p_opensans'>Order Online</a>
+      <a href='https://go.nowaiter.nl/en/M7NCJ' className='p_opensans'>Order Online</a>
       <div />
       <a href='/' className='p_opensans'>Book a Table</a>
       </div>
@@ -35,7 +35,7 @@ const   Navbar = () => {
               <li><a href="#about" onClick={() => setToggleMenu(false)}>About</a></li>
               <li><a href="#menu" onClick={() => setToggleMenu(false)}>Menu</a></li>
               <li><a href="#contact" onClick={() => setToggleMenu(false)}>Contact</a></li>
-              <li><a href="/" className='plus' onClick={() => setToggleMenu(false)}>Order Online</a></li>
+              <li><a href="https://go.nowaiter.nl/en/M7NCJ" className='plus' onClick={() => setToggleMenu(false)}>Order Online</a></li>
               <li><a href="/" className='plus' onClick={() => setToggleMenu(false)}>Book a Table</a></li>
             </ul>
           </div>
