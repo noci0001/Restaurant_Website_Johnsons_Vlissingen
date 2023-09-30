@@ -11,7 +11,7 @@ const SpecialMenu = () => (
     </div>  */}
       <div className='app__specialMenu-title'>
         <SubHeading title="Menu That Fits Your Palatte"/>
-        <h1 className='headtext__cormorant'>Fresh Bagels, Delious Bowls and Filling Wraps</h1>
+        <h1 className='headtext__cormorant' style="font-size:70px">Fresh Bagels, Delious Bowls and Filling Wraps</h1>
       </div>
       <div className='app__specialMenu-menu'>
         <div className='app__specialMenu-menu_bagels flex__center'>
