@@ -1,70 +1,34 @@
-# Getting Started with Create React App
+***Johnsons Vlissingen***
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## SUMMARY
 
-## Available Scripts
+Freelancing job for high-end restaurant in The Netherlands built fully in React.js
+## 🚀 About Me
+![*Full stack developer*](https://github.com/noci0001/noci0001/assets/79120220/73d4cda4-8371-4ad3-9bbb-8d556b8b33d7)
+### Hi there 👋, my name is *Sam*
+I am Sam from Berlin, I code for a living and I live to code. I really enjoy low level languages like C and I mostly code in CPP. 
+You can checkout my LinkedIn profile at [my LinkedIn](https://linkedin.com/in/samuelnocita)
 
-In the project directory, you can run:
+## Authors
 
-### `npm start`
+ Me: [@noci0001](https://www.linkedin.com/in/samuelnocita/)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Screenshots
 
-### `npm test`
+**HERO**
+![*HERO*](https://github.com/noci0001/Restaurant_Website_Johnsons_Vlissingen/blob/main/6ACF1291-E951-489C-8557-50D0A75817D5_1_201_a.jpeg)
+**ABOUT US**
+![*ABOUT_US*](https://github.com/noci0001/Restaurant_Website_Johnsons_Vlissingen/blob/main/90EE6CFD-8039-4C92-96A9-665D349B21C7_1_201_a.jpeg)
+**MENU**
+![*MENU*](https://github.com/noci0001/Restaurant_Website_Johnsons_Vlissingen/blob/main/FB5A71B3-B1F5-4A1D-B43C-3CA78ACD3DDD_1_201_a.jpeg)
+**SOCIALS & PHOTO_GALLERY**
+![*PHOTO_GALLERY*](https://github.com/noci0001/Restaurant_Website_Johnsons_Vlissingen/blob/main/0947E0D3-4E85-40B2-B16C-EFC54970416D_1_201_a.jpeg)
+**FIND US**
+![*FIND_US*](https://github.com/noci0001/Restaurant_Website_Johnsons_Vlissingen/blob/main/6EF03BC0-2BCF-4AEC-AA0E-7C786C6FD16F_1_201_a.jpeg)
+**FIND US**
+![*FOOTER*](https://github.com/noci0001/Restaurant_Website_Johnsons_Vlissingen/blob/main/Screen%20Shot%202023-09-30%20at%2012.24.46%20PM.png)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Deployment
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This Website deployment was taken care of by Netlify and can be visited at this [link](https://johnsonsvlissingen.netlify.app/#about)
